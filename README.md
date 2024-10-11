@@ -2,7 +2,7 @@
 ## Description
 This project shows an example of closure by displaying the output of two functions containing closed values. 
 - func1 creates and instance of func2 with an enclosed value of 0.
-- func2 returns the current value and then increment the value by 1.
+- func2 returns the current value and then increments the value by 1.
 - Two instances of the function are created.
 - One function is chosen at random for each iteration.
 - The DOM is manipulated to display the output.
