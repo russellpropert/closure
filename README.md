@@ -1,7 +1,7 @@
 # Closure
 ## Description
-This project shows an example of closure in functional programing by displaying the output of two functions containing closed values. 
-- func1 creates and instance of func2 with an inclosed value of 0 captured form func1.
+This project shows an example of closure by displaying the output of two functions containing closed values. 
+- func1 creates and instance of func2 with an enclosed value of 0.
 - func2 returns the current value and then increment the value by 1.
 - Two instances of the function are created.
 - One function is chosen at random for each iteration.
