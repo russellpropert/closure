@@ -18,6 +18,7 @@ body {
 
 .top-container {
   width: 100vw;
+  height: 100dvh;
   display: flex;
   gap: 1rem;
   flex-direction: column;
