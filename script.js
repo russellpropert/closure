@@ -15,14 +15,14 @@ const function2 = func1();
 
 const createDiv = ([text, number]) => {
   const outputContainerDiv = document.createElement('div');
-  outputContainerDiv.className = 'outputContainer';
+  outputContainerDiv.className = 'output-card';
 
   const textDiv = document.createElement('div');
-  textDiv.className = 'outputText';
+  textDiv.className = 'output-text';
   textDiv.innerText = text;
   
   const numberDiv = document.createElement('div');
-  numberDiv.className = 'outputNumber';
+  numberDiv.className = 'output-number';
   numberDiv.innerText = number;
 
   outputContainerDiv.appendChild(textDiv);
