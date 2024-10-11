@@ -7,6 +7,10 @@ This project shows an example of closure in functional programing by displaying 
 - One function is chosen at random for each iteration.
 - The DOM is manipulated to display the output.
 ## How to run
+This project was deployed on Vercel. Click [here](https://closure-rp.vercel.app/) to open.
+https://closure-rp.vercel.app/
+
+If you would like to run it locally:
 1. Clone this project to your machine.
 2. Open the index.html file in your browser.
 
