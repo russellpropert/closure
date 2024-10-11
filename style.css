@@ -2,6 +2,12 @@
   font-size: 20px;
 }
 
+@media (width < 500px) {
+  :root {
+    font-size: calc(100vw * .04);
+  }
+}
+
 * {
   margin: 0;
 }
@@ -11,9 +17,16 @@ body {
 }
 
 .top-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.output-container {
   --gradient-color: rgb(1, 63, 82);
-  margin: 1rem auto;
-  max-width: 20rem;
+  margin: 1rem 0;
+  width: 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +39,7 @@ body {
 }
 
 .outputContainer {
+  width: 11rem;
   display: flex;
   justify-content: center;
   align-items: center;
